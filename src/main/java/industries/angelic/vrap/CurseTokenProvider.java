@@ -1,4 +1,4 @@
-package org.fentanylsolutions.vrap;
+package industries.angelic.vrap;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,7 +14,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-import dev.dediamondpro.resourcify.config.Config;
+import industries.angelic.vintageresourcify.config.Config;
 
 public final class CurseTokenProvider {
 

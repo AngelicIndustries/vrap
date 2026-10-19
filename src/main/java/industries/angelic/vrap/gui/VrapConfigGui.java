@@ -1,17 +1,16 @@
-package org.fentanylsolutions.vrap.gui;
+package industries.angelic.vrap.gui;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import net.minecraft.client.gui.GuiScreen;
 
-import org.fentanylsolutions.vrap.VintageResourcifyApiPlugin;
-import org.fentanylsolutions.vrap.VrapConfig;
-
 import cpw.mods.fml.client.config.ConfigGuiType;
 import cpw.mods.fml.client.config.DummyConfigElement;
 import cpw.mods.fml.client.config.GuiConfig;
 import cpw.mods.fml.client.config.IConfigElement;
+import industries.angelic.vrap.VintageResourcifyApiPlugin;
+import industries.angelic.vrap.VrapConfig;
 
 public class VrapConfigGui extends GuiConfig {
 

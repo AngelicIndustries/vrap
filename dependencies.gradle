@@ -1,8 +1,14 @@
 dependencies {
-    devOnlyNonPublishable("dev.dediamondpro.resourcify:VintageResourcify:1.0.4")
+    // A local development jar lets the matching releases be tested before either is published.
+    def resourcifyDevJar = providers.gradleProperty("resourcifyDevJar").orNull
+    if (resourcifyDevJar != null) {
+        devOnlyNonPublishable(files(resourcifyDevJar))
+    } else {
+        devOnlyNonPublishable("industries.angelic.vintageresourcify:VintageResourcify:1.0.6:dev")
+    }
 
-    runtimeOnlyNonPublishable("com.falsepattern:forgelin-mc1.7.10:2.4.1-2.3.10")
-    runtimeOnlyNonPublishable("com.github.GTNewHorizons:ModularUI2:2.3.80-1.7.10:dev")
-    runtimeOnlyNonPublishable("org.fentanylsolutions.fentlib:FentLib:0.0.52:dev")
+    runtimeOnlyNonPublishable("com.falsepattern:forgelin-mc1.7.10:2.4.3-2.4.10")
+    runtimeOnlyNonPublishable("com.github.GTNewHorizons:ModularUI2:2.3.92-1.7.10:dev")
+    runtimeOnlyNonPublishable("industries.angelic.angellib:AngelLib:1.0.0:dev")
     runtimeOnlyNonPublishable(rfg.deobf("curse.maven:catalogue-vintage-1465746:8384975")) // 1.0.8-1.7.10
 }

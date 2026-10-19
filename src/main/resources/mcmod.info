@@ -6,7 +6,7 @@
 		"description": "Fetches a CurseForge API token for Vintage Resourcify from a configurable endpoint.",
 		"version": "${modVersion}",
 		"mcversion": "${minecraftVersion}",
-		"url": "https://github.com/JackOfNoneTrades/vrap",
+		"url": "https://github.com/AngelicIndustries/vrap",
 		"updateUrl": "",
 		"authorList": ["jack"],
 		"credits": "GT:NH ExampleMod",

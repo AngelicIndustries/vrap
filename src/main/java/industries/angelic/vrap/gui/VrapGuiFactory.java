@@ -1,4 +1,4 @@
-package org.fentanylsolutions.vrap.gui;
+package industries.angelic.vrap.gui;
 
 import java.util.Set;
 

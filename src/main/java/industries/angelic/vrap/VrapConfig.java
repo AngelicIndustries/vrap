@@ -1,4 +1,4 @@
-package org.fentanylsolutions.vrap;
+package industries.angelic.vrap;
 
 import java.io.File;
 
